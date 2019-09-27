@@ -1,0 +1,7 @@
+23 17 * * * ls -l > out1.txt
+21 17 * * * pwd > out2.txt
+#2 1 * * * ps -aux | grep python > out3.txt
+#13 17 * * * ls -l > out4.txt
+#35 13 * * * ps -aux | grep python > out5.txt
+#10 2 * * * ls -l > out6.txt
+#5 12 * * * ps -aux | grep python > out7.txt
